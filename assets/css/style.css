@@ -10,7 +10,7 @@
     --ext-font-color: #9b9ca8;
     --ext-title-color: #ffffff;
     --ext-white: #ffffff;
-    --ext-primary-color: #b59548;
+    --ext-primary-color: #FF9f04;
     --ext-border-color: #363636;
     --ext-input-border: #242424;
     --ext-input-bg: #242424;
@@ -50,6 +50,7 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
     background: var(--ext-main-bg);
+    /* background-image: url('/assets/images/main-bg.jpg'); */
     color: var(--ext-font-color);
 }
 
@@ -392,7 +393,7 @@ section {
     font-size: var(--ext-font-size);
     color: var(--ext-white) !important;
     padding: 13px 26px;
-    padding-left: 65px;
+    /* padding-left: 65px; */
     font-weight: 600;
     border-radius: var(--ext-radius-comman);
     overflow: hidden;
@@ -405,7 +406,7 @@ section {
     color: var(--ext-white);
 }
 
-.ext-btn:before {
+/* .ext-btn:before {
     position: absolute;
     left: 0;
     top: -5px;
@@ -417,9 +418,9 @@ section {
     opacity: .1;
     border-top-right-radius: 33px;
     border-bottom-right-radius: 33px;
-}
+} */
 
-.ext-btn:after {
+/* .ext-btn:after {
     font-family: "Font Awesome 5 Free";
     content: "\f101";
     position: absolute;
@@ -427,7 +428,7 @@ section {
     top: 12px;
     font-size: var(--ext-font18);
     color: var(--ext-white);
-}
+} */
 
 .ext-btn:hover:before {
     width: 100%;
@@ -445,12 +446,12 @@ section {
     font-size: var(--ext-font-size);
     color: var(--ext-white) !important;
     padding: 13px 26px;
-    padding-left: 65px;
+    /* padding-left: 65px; */
     font-weight: 600;
     border-radius: var(--ext-radius-comman);
     overflow: hidden;
     text-transform: uppercase;
-    background-color: #075E54;
+    background-color: #0e7929;
     border: 0;
 }
 
@@ -458,7 +459,7 @@ section {
     color: var(--ext-white);
 }
 
-.whatsapp-btn:before {
+/* .whatsapp-btn:before {
     position: absolute;
     left: 0;
     top: -5px;
@@ -481,7 +482,7 @@ section {
     top: 12px;
     font-size: var(--ext-font18);
     color: var(--ext-white);
-}
+} */
 
 .whatsapp-btn:hover:before {
     width: 100%;
@@ -1127,10 +1128,12 @@ body.open-cart:before {
 
 .ext-banner-text-inner {
     padding: 0 20px 0 200px;
+    text-align: center;
 }
 
 .ext-banner-text-inner h4 {
     font-size: var(--ext-font24);
+    text-align: center;
 }
 
 .ext-banner-title {
